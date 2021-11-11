@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./index.js",
-    "secondary": "cross-env PORT=3001 nodemon ./index.js"
+    "secondary": "cross-env PORT=3004 nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "express": "^4.17.1",
     "json-server": "^0.15.1"
   },
-    "devDependencies": {
+  "devDependencies": {
     "nodemon": "^2.0.2"
   }
 }
